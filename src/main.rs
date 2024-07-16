@@ -1,7 +1,10 @@
-mod linked_list;
+#![allow(unused)]
+
 mod block;
+mod linked_list;
 mod mresult;
+use block::BlockChain;
 
 fn main() {
-    println!("Hello, world!");
+    let blockchain = BlockChain::new();
 }
